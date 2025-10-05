@@ -6,6 +6,12 @@
 
 ## เวอร์ชัน
 
+### v2.4 - Clean Output Organization
+- จัดระเบียบไฟล์ output ในโฟลเดอร์ `outputs/`
+- โครงสร้างโปรเจคสะอาดขึ้น
+- ไฟล์ output ทั้งหมดถูกเก็บแยกออกมา
+- อัปเดต .gitignore สำหรับโฟลเดอร์ outputs
+
 ### v2.3 - Perfect Audio-Video Sync
 - แก้ไขปัญหาเสียงกับภาพไม่ตรงกัน
 - สร้างเสียงและวิดีโอแยกกันแต่ละ segment แล้วรวมกัน
@@ -198,11 +204,13 @@ pip install moviepy==1.0.3
 
 ## ไฟล์ในโปรเจค
 
-- `app_multispeaker.py` - แอปพลิเคชันหลัก (v2.3)
+- `app_multispeaker.py` - แอปพลิเคชันหลัก (v2.4)
+- `app_multispeaker_v2.4.py` - Backup v2.4
 - `app_multispeaker_v2.3.py` - Backup v2.3
 - `app_multispeaker_v2.2.py` - Backup v2.2
 - `app_multispeaker_v2.1.py` - Backup v2.1
 - `app_multispeaker_v2.0.py` - Backup v2.0
+- `outputs/` - โฟลเดอร์เก็บไฟล์ output ทั้งหมด
 - `README.md` - เอกสารนี้
 - `LICENSE` - ใบอนุญาต
 - `Snipaste.png` - ภาพตัวอย่าง

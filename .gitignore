@@ -26,6 +26,7 @@ env/
 ENV/
 
 # Output Files
+outputs/
 output*.mp3
 output*.mp4
 output*.avi

@@ -1,3 +1,7 @@
+# Backup of v2.4 - Clean Output Organization
+# This is a backup copy of app_multispeaker.py v2.4
+# Features: Organized output files in outputs/ folder for cleaner project structure
+
 import gradio as gr
 import edge_tts
 import asyncio
